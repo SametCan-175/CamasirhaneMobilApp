@@ -20,4 +20,8 @@ export const db = getFirestore(app);
 
 // ⚠️ React Native'de Analytics kullanma
 // import { getAnalytics } from "firebase/analytics";
+<<<<<<< HEAD
 // const analytics = getAnalytics(app); // kaldır veya yorum satırı yap
+=======
+// const analytics = getAnalytics(app); // kaldır veya yorum satırı yap
+>>>>>>> 2906478a812202e82a6e7af9bd11f907a6657e60

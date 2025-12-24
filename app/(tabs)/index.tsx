@@ -17,8 +17,11 @@ import {
 } from "react-native";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../../firebase";
+<<<<<<< HEAD
 import { router } from "expo-router";
 import { useRouter } from "expo-router";
+=======
+>>>>>>> 2906478a812202e82a6e7af9bd11f907a6657e60
 
 
 interface FormData {
@@ -36,7 +39,10 @@ interface FormErrors {
 const { width } = Dimensions.get("window");
 
 export default function Index() {
+<<<<<<< HEAD
     const router = useRouter();
+=======
+>>>>>>> 2906478a812202e82a6e7af9bd11f907a6657e60
   const [formData, setFormData] = useState<FormData>({
     name: "",
     surname: "",
@@ -95,7 +101,10 @@ export default function Index() {
   };
 
   const handleLogin = async (): Promise<void> => {
+<<<<<<< HEAD
   
+=======
+>>>>>>> 2906478a812202e82a6e7af9bd11f907a6657e60
     if (!validateForm()) return;
 
     setIsLoading(true);
@@ -115,10 +124,13 @@ export default function Index() {
       });
 
       Alert.alert("✨ Başarılı", `Hoş geldiniz ${formData.name} ${formData.surname}!`);
+<<<<<<< HEAD
       router.replace("/(tabs)/Anasayfa");
 
 
 
+=======
+>>>>>>> 2906478a812202e82a6e7af9bd11f907a6657e60
     } catch (error) {
       console.error("Firestore kaydı başarısız:", error);
       Alert.alert("⚠️ Hata", "Veriler kaydedilemedi, lütfen tekrar deneyin.");
