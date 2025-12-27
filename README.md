@@ -1,50 +1,128 @@
-# Welcome to your Expo app 👋
+🧺 Dormitory Laundry Queue System - Mobile Application
+📱 Project Title
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Development of a Mobile Application for the Dormitory Laundry Queue System
 
-## Get started
+👨‍💻 Authors
 
-1. Install dependencies
+👤 Samet Can ŞANAL
+👤 Emir Can HACIOĞLU
+👤 Ozan KÖMCÜ
 
-   ```bash
-   npm install
-   ```
+📌 Abstract
 
-2. Start the app
+In higher education dormitories, queue management in shared laundry rooms is generally handled using manual methods such as notebooks or verbal communication. This situation leads to time loss, confusion, and disputes among users.
 
-   ```bash
-   npx expo start
-   ```
+In this project, a mobile based digital queue and machine monitoring system developed for dormitory laundries is presented. Users can log in using their name, surname, and phone number and access real time information such as machine availability, operating duration, and estimated remaining time.
 
-In the output, you'll find options to open the app in a
+The application was developed using React and React Native technologies. 91.8 percent of the software was written in TypeScript and 8.2 percent in JavaScript. Firebase was used for real time data management and storage.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+As a result, the system eliminates manual queue tracking and provides a more organized, efficient, and user friendly laundry experience.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🏷️ Keywords
 
-## Get a fresh project
+📱 Mobile Application
+🧼 Laundry Automation
+⚛️ React Native
+🔥 Firebase
+🔢 Digital Queue System
 
-When you're ready, run:
+🚀 Features
 
-```bash
-npm run reset-project
-```
+✅ User login system using name surname and phone number
+✅ Washing and drying machine availability tracking
+✅ Machine operating time and remaining time information
+✅ Digital queue management
+✅ Real time data updates
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🎯 Purpose of the Project
 
-## Learn more
+The main purpose of this project is to provide a digital solution to queue and time management problems experienced in university dormitory laundries. The system allows users to see in advance which machine will become available and when, without unnecessary waiting.
 
-To learn more about developing your project with Expo, look at the following resources:
+With the developed system
+✔️ Manual queue tracking is eliminated
+✔️ Communication problems among users are reduced
+✔️ Laundry usage becomes more organized
+✔️ Time loss is minimized
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📦 Project Scope
 
-## Join the community
+This project includes a mobile based application covering washing and drying machines used in dormitories.
 
-Join our community of developers creating universal apps.
+The application includes
+🔐 User authentication
+📊 Machine status monitoring
+⏱️ Time calculation
+🔄 Real time data updates
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🚫 Payment systems and machine fault reporting features are excluded from the scope.
+
+🛠️ Technologies Used
+
+⚛️ React Native
+⚛️ React
+📘 TypeScript
+📙 JavaScript
+🔥 Firebase
+🚀 Expo
+📲 Expo Go
+
+🧱 System Architecture
+
+🖥️ Frontend developed with React Native using Expo
+☁️ Backend managed with Firebase real time database
+🔐 Authentication handled via Firebase
+📱 Testing performed on physical devices using Expo Go
+
+🔄 System Flow
+
+➡️ User logs in with name surname and phone number
+➡️ Machine availability and working times are displayed
+➡️ Selected machine time is tracked automatically
+➡️ Remaining time updates in real time
+➡️ When time expires the machine is marked as available automatically
+
+📊 Findings
+
+📈 The system successfully provides real time machine tracking and digital queue management.
+
+😊 Users experience reduced waiting time and improved order in laundry usage.
+
+📞 Phone number information enables communication between users when needed.
+
+🔮 Future Improvements
+
+🔔 Notification system for machine time expiration
+📷 QR code based machine identification
+📈 Usage statistics and reporting
+🏢 Support for multiple dormitories
+
+📚 References
+
+📖 Firebase Documentation
+https://firebase.google.com
+
+📖 React Native Documentation
+https://reactnative.dev
+
+📖 TypeScript Documentation
+https://www.typescriptlang.org
+
+📖 React Documentation
+https://react.dev
+
+📖 GitHub Documentation
+https://github.com
+
+📖 Stack Overflow
+https://stackoverflow.com
+
+📖 Expo Documentation
+https://docs.expo.dev
+
+📖 Expo Go Documentation
+https://expo.dev/client
+
+📄 License
+
+📌 This project was developed for academic purposes.
